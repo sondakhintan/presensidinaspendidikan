@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+canvas {
+  position: absolute;
+  margin-right: 88vh;
+  margin-top: 42vh;
+  width: 66vh;
+}
+
+.btn-primary-keluar {
+  background-color: red !important;
+  color: white;
+  padding: 15px 30px;
+}
+.btn-primary-keluar:hover {
+  background-color: rgb(216, 0, 0) !important;
+  color: white;
+  padding: 15px 30px;
+}
+
+.btn-primary-absen {
+  background-color: rgb(0, 96, 205) !important;
+  color: white;
+  padding: 15px 30px !important;
+  border-color: none;
+  border: none;
+}
+.btn-primary-absen:hover {
+  background-color: rgb(0, 75, 160) !important;
+  color: white;
+  padding: 15px 30px !important;
+  border-color: none;
+  border: none;
+}
+
+.btn-primary-refresh {
+  background-color: rgb(210, 161, 0) !important;
+  color: white;
+  padding: 15px 30px !important;
+  border-color: none;
+  border: none;
+}
+.btn-primary-refresh:hover {
+  background-color: rgb(199, 152, 0) !important;
+  color: white;
+  padding: 15px 30px !important;
+  border-color: none;
+  border: none;
+}
